@@ -783,13 +783,11 @@ blockquote {
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
-#header2-2 .mbr-section-title,
-#header2-2 .mbr-section-subtitle,
-#header2-2 .btn {
-  color: #fff;
+#slider-o .mbr-section-title {
+  font-size: 72px;
 }
-#header2-2 .mbr-section-title {
-  font-weight: 700;
+#slider-o .mbr-section-text {
+  font-size: 32px;
 }
 #header10-4 .display-1 {
   font-weight: 700;
