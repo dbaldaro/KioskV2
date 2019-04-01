@@ -783,19 +783,33 @@ blockquote {
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
+#header1-p .lead {
+  color: #93a3a7;
+  font-style: italic;
+}
+#header1-p .mbr-section-text {
+  color: #ffffff;
+  font-size: 23px;
+}
+#header1-p .mbr-section-title {
+  font-size: 100px;
+}
 #slider-o .mbr-section-title {
   font-size: 72px;
 }
 #slider-o .mbr-section-text {
   font-size: 32px;
 }
-#header10-4 .display-1 {
+#header10-q .display-1 {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 40px;
 }
-#header10-4 P {
-  font-size: 23px;
+#header10-q P {
+  font-size: 24px;
+}
+#header11-a P {
+  font-size: 20px;
 }
 #content3-j .mbr-section-title,
 #content3-j .mbr-section-subtitle {

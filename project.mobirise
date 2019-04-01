@@ -25,9 +25,12 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.6",
     "siteFonts": [],
-    "uniqCompNum": 25,
+    "uniqCompNum": 27,
     "versionPublish": "4.9.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/xmpie-white-logo4x-128x128.png",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
@@ -108,7 +111,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">TOP</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content3-j\">SLIDES</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">DEMO &amp; LINKS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-c\">Resources</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-p\">TOP</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#content3-j\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">CONTENT</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#slider-o\">HEADLINES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#content3-j\">POSITIONING SLIDES</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header10-q\">INTRO VIDEO</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">DEMOS &amp; RESOURCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-d\">Demo Resources</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-n\">PressoCup Demos</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features1-c\">General Resources</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -134,6 +137,50 @@
           "_anchor": "menu-0"
         },
         {
+          "_styles": {
+            ".lead": {
+              "color": "#93a3a7",
+              "font-style": "italic"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff",
+              "font-size": "23px"
+            },
+            ".mbr-section-title": {
+              "font-size": "100px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "buttonAlign": "left",
+            "showArrow": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/bg-2-1584x396.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c3e50",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#8e44ad",
+            "overlayOpacity": "0.8"
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "DISCOVER <b>XMPIE</b>&nbsp;",
+          "text": "This interactive kiosk &nbsp;delivers you all the latest<br>information and demos for &nbsp;XMPie's products and services,<br>Kiosk v2.0",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-text\" href=\"https://mobirise.com\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-p"
+        },
+        {
           "_params": {
             "autoplay": true,
             "fullScreen": true,
@@ -146,7 +193,7 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/screenshot-2019-03-27-at-13.42.16-1716x1230.png",
                 "contentAlign": "center",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -154,7 +201,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "title": "PHYSICAL <b>PRINT</b><br>TO DIGITAL JOURNEY",
                 "overlay": true,
-                "overlayOpacity": "0.6",
+                "overlayOpacity": "0.8",
                 "text": "Make print engaging, relevant and personalised. Make print a part of a customer's journey. See how XMPie uses Adobe InDesign to deliver personalised print.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
@@ -169,8 +216,23 @@
                 "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
                 "title": "<b>OMNICHANNEL</b> MARKETING<br>THAT INCLUDES <b>PRINT</b>",
                 "overlay": true,
-                "overlayOpacity": "0.6",
+                "overlayOpacity": "0.8",
                 "text": "Omnichannel marketing isn't only focused on the digital journey. See how XMPie can seemlessly include print within the customer's journey as a integral part of the communication.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/toolbox-1582313-1920-1920x1440.jpg",
+                "contentAlign": "left",
+                "active": true,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "title": "<p><b>ONE &nbsp;CUSTOMER</b><br>Personalised <b>Print</b><br>Personalised <b>Websites</b><br>Personalised <b>Emails</b><br>Personalised <b>Imagery</b><br>Personalised <b>Videos</b></p>",
+                "overlay": true,
+                "overlayOpacity": "0.7",
+                "text": "XMPie drives personalised content across different channels delivering a consistent customer journey that <b>INCLUDES</b> <b>PRINT</b>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
@@ -194,6 +256,16 @@
           }
         },
         {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "text-transform": "uppercase",
+              "margin-top": "40px"
+            },
+            "P": {
+              "font-size": "24px"
+            }
+          },
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -202,7 +274,7 @@
             "VideoUrl": "https://www.youtube.com/watch?v=uedCuVOlSuw",
             "showArrow": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/10.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/sports-731506-1920-1920x1440.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -211,7 +283,7 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#2980b9",
+            "overlayColor": "#8e44ad",
             "overlayOpacity": 0.9
           },
           "media": {
@@ -229,9 +301,9 @@
               "family": "et-line"
             }
           },
-          "title": "MANY CHANNELS<br>ONE CONVERSATION",
-          "text": "The leading technology for engaging your audiences with personalized, relevant communications across Print and Digital media touchpoints.",
-          "text2": "<label class=\"startPreset\" for=\"modal\">Watch the one minute overview video&nbsp;</label>",
+          "title": "MANY CHANNELS<div>ONE CONVERSATION</div>",
+          "text": "The leading technology for engaging your audiences with personalized,<br>relevant communications across Print and Digital media touchpoints.",
+          "text2": "<label class=\"startPreset\" for=\"modal\">Watch Video</label>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "alias": "colorm/components",
@@ -239,29 +311,24 @@
             "Theme"
           ],
           "_name": "header10",
-          "_anchor": "header10-4",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header10 mbr-after-navbar\" data-rv-view=\"11\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/10.jpg&quot;);\">\n\n        <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(41, 128, 185);\">    \n        </div>\n        <div class=\"mbr-table-cell\">\n            <div class=\"container\">\n                <div class=\"mbr-section row\">\n                    <div>\n                            <h1 class=\"mbr-section-title display-1 text-center startPreset mbr-editable-content\" code-editable-id=\"15\">MANY CHANNELS<br>ONE CONVERSATION</h1>\n\n                            <div class=\"mbr-section-text text-center startPreset\">\n                                <p class=\"mbr-editable-content\" code-editable-id=\"16\">The leading technology for engaging your audiences with personalized, relevant communications across Print and Digital media touchpoints.</p>\n                            </div>\n            \n                            <div class=\"mbr-figure intro-play-btn-figure\"><img src=\"@PROJECT_PATH@/assets/images/play-button.svg\"></div>\n\n                            <a class=\"modalWindow-link\"><span class=\"intro-play-btn h-white mbr-editable-content\" code-editable-id=\"17\"><label class=\"startPreset\" for=\"modal\">Watch the one minute overview video&nbsp;</label></span></a>\n\n                            \n\n                    </div>\n         \n                </div> \n            </div> \n        </div>\n        \n        <div class=\"mbr-arrow mbr-arrow-floating\" aria-hidden=\"true\">\n            <a href=\"#features15-8\">\n                <img alt=\"\" src=\"@PROJECT_PATH@/assets/images/arrowdown.png\">\n            </a>\n        </div>\n\n        <div class=\"modalWindow\" id=\"modalWindow\">\n            <div class=\"modalWindow-container\">                      \n                 <div class=\"modalWindow-video-container\">\n                     <div class=\"modalWindow-video\" href=\"https://www.youtube.com/watch?v=uedCuVOlSuw\">\n                         <iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/uedCuVOlSuw?rel=0&amp;enablejsapi=1\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"closeModal\">×</span>\n                    </a>\n                 </div>\n            </div>\n        </div>       \n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_customCSS": ".display-1 {\n  font-weight: 700;\n  text-transform: uppercase;\n  margin-top: 40px;\n}\nP {\n  font-size: 23px;\n}\n",
-          "_customTemplate": true
+          "_anchor": "header10-q"
         },
         {
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "showArrow": true,
             "animText1": "PROVIDERS",
             "animText2": "ENTERPRISES",
             "animText3": "AGENCIES",
             "typeSpeed": 60,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/11-2.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/fairground-1149626-1920-1920x1200.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#000000",
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -270,15 +337,20 @@
             "overlayOpacity": "0.8"
           },
           "title": "VARIABLE CONTENT PUBLISHING<br>FOR",
-          "text": "Full-screen intro with \"typed\" text effect. Enter in any string, and watch it type at the speed you have set, backspace what it is typed, and begin a new string. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">GET FREE TRIAL</a>",
+          "text": "Some information about how XMPie is versitile for the industry and an ideal tool for creating variable content.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">GET FREE TRIAL</a>",
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
           "_name": "header11",
-          "_anchor": "header11-a"
+          "_anchor": "header11-a",
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            }
+          }
         },
         {
           "_styles": {
